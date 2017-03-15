@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsLab"
+             x:Class="XamarinFormsLab.MainPage">
+
+    <StackLayout
+        VerticalOptions="Center">
+        <Entry x:Name="entry" Placeholder="Please 輸入內容" />
+        <Button x:Name="button" Text="OK" />
+        <Label x:Name="label" />
+    </StackLayout>
+
+</ContentPage>
